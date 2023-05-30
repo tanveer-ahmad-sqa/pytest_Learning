@@ -17,12 +17,12 @@ pytest a Third party package not a part of python standard libray
 Python Packages:
 ================
 This course will use a handful of third-party packages:
-pytest
-pytest-cov
-pytest-html
-pytest-xdist
-requests
-playwright
+1. pytest
+2. pytest-cov
+3. pytest-html
+4. pytest-xdist
+5. requests
+6. playwright
 These packages are not part of the Python Standard Library. They must be installed separately using pip, the standard Python package installer. You can install them all before you create your test project, or you can install them as you complete each chapter in the course.
 cmd: pip install pytest
 
