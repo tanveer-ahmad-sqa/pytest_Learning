@@ -23,6 +23,7 @@ This course will use a handful of third-party packages:
 4. pytest-xdist
 5. requests
 6. playwright
+
 These packages are not part of the Python Standard Library. They must be installed separately using pip, the standard Python package installer. You can install them all before you create your test project, or you can install them as you complete each chapter in the course.
 cmd: pip install pytest
 
