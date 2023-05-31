@@ -1,0 +1,30 @@
+01. What command prints the current Python version?
+    python --version
+02. Conventionally, tests in a Python project belong under a directory named "tests".
+    true
+03. What command does pytest used for making assertions?
+    assert
+04. What is the best command for running pytest tests?
+    python -m pytest
+05. pytest treats all functions in modules under the "tests" directory as test cases.
+    false
+06. One Python test module can contain more than one test case function.
+    true
+07. What symbol does pytest use in its reports to denote a passing test?
+    .
+08. What symbol does pytest use in its reports to denote a failing test?
+    F
+09. What types of exceptions will make a pytest test case fail?
+    any type of exception
+10. By default, pytest will print test code snippets, failure reasons, and test result tallies for failed test cases.
+    true
+11. What is the purpose of "pytest.raises"?
+    To verify that the code under test raises expected exceptions.
+12. "pytest.raises" must be imported from the pytest module.
+    true
+13. "pytest.raises" does not look for exceptions based on type.
+    false
+14. Why does "pytest.raises" need to be used with a "with" statement?
+    The "with" statement executes additional "enter" and "exit" logic for handling raised exceptions.
+15. How can "pytest.raises" store the raised exception object for further assertions?
+    Add an "as" clause to the end of the "with" statement to store the exception into a variable.
