@@ -28,3 +28,13 @@
     The "with" statement executes additional "enter" and "exit" logic for handling raised exceptions.
 15. How can "pytest.raises" store the raised exception object for further assertions?
     Add an "as" clause to the end of the "with" statement to store the exception into a variable.
+16. What is an "equivalence class" for test case inputs?
+    A unique kind of input that yields a unique kind of output.
+17. What is the name of the pytest decorator for parametrized inputs?
+    @pytest.mark.parametrize
+18. What is the data format for passing pytest parameters?
+    a list of parameter value tuples
+19. pytest parameters may be strings as well as numbers.
+    true
+20. pytest parameters cannot be read from external files.
+    false
