@@ -72,3 +72,22 @@
 
 25. Which of the following lines represents an "Assert" step?
     assert accum.count == 0
+
+26. In pytest, what is a fixture?
+    A function that handles setup and cleanup operations for a test case.
+
+27. What is the name of the decorator used for defining functions as fixtures?
+    @pytest.fixture
+
+28. Fixtures cover the "Act" phase of "Arrange-Act-Assert".
+    false
+
+29. To share fixtures between test modules, where should the fixtures be located?
+    In a "conftest.py" module under the "tests" directory.
+
+30. A test case cannot use multiple fixtures.
+    false
+
+31. A fixture can provide both setup and cleanup logic by using a yield statement.
+    true
+

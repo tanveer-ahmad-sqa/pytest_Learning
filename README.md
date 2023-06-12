@@ -40,4 +40,26 @@ the prefix "test_" in any modules with the prefix "test_" will be identified and
 
 Run Tests using command:
 =======================
-python -m pytest
+1. python -m pytest
+
+2. python -m pytest --help
+
+3. "python -m pytest --verbose" OR "python -m pytest -v"
+By Running this command pytest will print every test path along with Passed OR Failed Status
+if test failed then its code will also print (print failure introspection)
+
+4. python -m pytest --quite
+This command will show only dots and F for pass and failed tests respectively. also it will
+display code of failed tests (print failure introspection)
+
+5. "python -m pytest --exitfirst" OR "python -m pytest --maxfail=1"
+This command will stop executing test on first failed 
+
+
+
+
+
+
+
+
+
