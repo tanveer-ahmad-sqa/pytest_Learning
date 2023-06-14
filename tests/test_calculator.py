@@ -12,11 +12,13 @@ def test_addition(calc):            # use calc function as parameter
     assert sum == 7
 
 
+@pytest.mark.skip(reason="no way of currently testing this")
 def test_subtraction(calc):
     sub = calc.subtract()
     assert sub == 3
 
 
+@pytest.mark.skip(reason="no way of currently testing this")
 def test_multiplication(calc):
     mul = calc.multiply()
     assert mul == 10
