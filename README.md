@@ -55,6 +55,30 @@ display code of failed tests (print failure introspection)
 5. "python -m pytest --exitfirst" OR "python -m pytest --maxfail=1"
 This command will stop executing test on first failed 
 
+6. python -m  pytest -v .\tests\test_calculator.py 
+7. python -m  pytest -v .\tests\test_math.py::test_one_plus_one
+The above 6 and 7 command run the specific test case
+
+8. python -m  pytest -v -k multi 
+Run all the testcases that contains function name 'multi'
+
+9. ----------- pytest Marker --------------------
+in "pytest.ini" file add without quotes
+"[pytest]
+markers = 
+    accumulator
+    math"
+
+and add decorator "@pytest.mark.math" and "@pytest.mark.accumulator" in the testcases that you want for 
+math and accumulator
+
+How to Run Marker Testcases?
+python -m pytest -v -m math
+python -m pytest -v -m accumulator
+
+Note: Use -m with marker name
+
+
 
 
 
