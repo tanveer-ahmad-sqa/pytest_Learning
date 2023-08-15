@@ -53,7 +53,7 @@ The above 6 and 7 command run the specific test case
 8. python -m  pytest -v -k multi 
 Run all the testcases that contains function name 'multi'
 
-# -- pytest Marker --
+# pytest Marker
 in "pytest.ini" file add without quotes
 "[pytest]
 markers = 
@@ -63,15 +63,15 @@ markers =
 and add decorator "@pytest.mark.math" and "@pytest.mark.accumulator" in the testcases that you want for 
 math and accumulator
 
-# How to Run Marker Testcases?
->>>>>> python -m pytest -v -m math
->>>>>> python -m pytest -v -m accumulator
+How to Run Marker Testcases?
+python -m pytest -v -m math
+python -m pytest -v -m accumulator
 Note: Use -m with marker name
 
-10. -- plugins ---
+# plugins
 1. pytest-html 
-   > install pytest-html using command "pip install pytest-html"
-   > Generate Report.html file using command "python -m pytest --html=report.html"
+   install pytest-html using command "pip install pytest-html"
+   Generate Report.html file using command "python -m pytest --html=report.html"
 
 2. pytest.cov
    1. install pytest-html using command "pip install pytest-cov"
@@ -98,5 +98,5 @@ Note:
    If you aren't careful, you may try to run more tests than your system can effectively handle. 
    pytest-xdist also lets you distribute test execution across multiple machines using SSH or sockets.
 
-4. >>>>>> pytest.bdd
-   > 
+4. pytest.bdd
+    
